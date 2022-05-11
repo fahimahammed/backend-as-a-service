@@ -26,14 +26,10 @@ connect.on("open", () => {
 
 app.use(express.json());
 const dishRouter = require('./routes/dishRouter');
-const promoRouter = require('./routes/promoRouter');
-const leaderRouter = require('./routes/leaderRouter');
 const userRouter = require('./routes/user');
 const favoriteRouter = require('./routes/favoriteRouter');
 
 app.use('/dishes', dishRouter);
-app.use('/promotions', promoRouter);
-app.use('/leader', leaderRouter);
 app.use('/user', userRouter);
 app.use('/favorite', favoriteRouter);
 
