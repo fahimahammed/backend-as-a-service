@@ -30,3 +30,25 @@ When the user performs a DELETE operation on `'/favorite/dishId'`, then you will
 - Task 3
 
 You will update app.js to support the new `'/favorite'` route.
+
+
+
+### Installation
+
+Install my-project with npm
+
+```bash
+  git clone https://github.com/fahimahammed/user-authentication.git
+  cd user-authentication
+  npm start
+```
+
+### Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`ACCESS_TOKEN`
+
+
+
+- [@fahimahammed](https://www.github.com/fahimahammed)
